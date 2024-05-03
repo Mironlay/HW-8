@@ -1,3 +1,77 @@
-.text-box  h3 {
+h3:nth-child(1) {
     color: pink;
+}
+
+div + div {
+    color: red;
+}
+
+#greycol {
+    color: grey;
+}
+
+div + h3 + p {
+    color: green;
+}
+
+.yellow {
+    color: yellow;
+}
+
+/* Для другого завдання */
+
+table {
+    background-color: navajowhite;
+}
+
+.item:hover {
+    background-color:  burlywood;
+    transform:  scale(1.5);
+}
+
+.second-item:nth-child(even) {
+    color: brown;
+}
+
+.second-item:nth-child(odd) {
+    color: blueviolet;
+}
+
+.third-item:nth-child(n+2) {
+    color: azure;
+}
+
+.third-item:active {
+    transform: scale(2);
+    color: violet;
+    background-color: ghostwhite;
+}
+
+.fourth-item:hover {
+    background-color: black;
+    color: white;
+}
+
+.fifth-item:active {
+    background-color: aquamarine;
+    color: coral;
+    transform: scale(2);
+}
+
+.fifth-item:nth-child(2n) {
+    color: indigo;
+}
+
+.sixth-item:nth-child(3n) {
+    color: green
+}
+
+.seventh-item:hover {
+    background-color: lawngreen;
+    color: orangered;
+}
+
+.eighth-item:active {
+    background-color: powderblue;
+    color: aliceblue;
 }
